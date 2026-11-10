@@ -1,4 +1,4 @@
-# goodrecmovies-com
+# goodrecmovies
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-goodrecmovies-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://goodrecmovies.com/
+goodrecmovies is a free public service that ranks movies and TV series worth watching. It offers a curated list of titles with zero filler, no ads, and no account required. The platform provides recommendations based on a tier system and aims to help users quickly find their next watch.
+
+**Areas:** Movies · Entertainment · Recommendations · Free · API
+
+## goodrecmovies on APIs.io
+
+Everything profiled for goodrecmovies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/goodrecmovies-com/](https://apis.io/providers/goodrecmovies-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [goodrecmovies API](https://apis.io/apis/goodrecmovies-com/goodrecmovies-api/) — Read‑only public API for movie and series rankings.
+- [goodrecmovies public API API](https://apis.io/apis/goodrecmovies-com/goodrecmovies-public-api-api/) — Read-only access to the goodrecmovies ranking (only the good stuff, zero filler). Versioning policy: the current version is served at /api/*; breaking…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Goodrecmovies Com Context](https://apis.io/jsonld/goodrecmovies-com/goodrecmovies-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [goodrecmovies API Rules](https://apis.io/rules/goodrecmovies-com/goodrecmovies-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [goodrecmovies Authentication](https://apis.io/security/goodrecmovies-com/goodrecmovies-com-authentication/)
+- [goodrecmovies Domain Security](https://apis.io/security/goodrecmovies-com/goodrecmovies-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [goodrecmovies Plans Pricing](https://apis.io/plans/goodrecmovies-com/goodrecmovies-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [goodrecmovies Rate Limits](https://apis.io/rate-limits/goodrecmovies-com/goodrecmovies-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://goodrecmovies.com/)
+- [API reference](https://goodrecmovies.com/docs)
+- [Pricing](https://goodrecmovies.com/pricing)
+- [Blog](https://goodrecmovies.com/blog)
+- [Terms of service](https://goodrecmovies.com/terms)
+- [Privacy policy](https://goodrecmovies.com/privacy)
+- [GitHub](https://github.com/0xm0w)
+
+## API Evangelist rating
+
+**Kin Score 51.5** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 47.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 33.7 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 60.0 |
+
+**Agent readiness 49.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/goodrecmovies-com/](https://apis.io/providers/goodrecmovies-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for goodrecmovies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/goodrecmovies-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
